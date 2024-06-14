@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>MainWindow</class>
+	<widget class="QMainWindow" name="MainWindow">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>800</width>
+				<height>600</height>
+			</rect>
+		</property>
+		<widget class="QWidget" name="centralwidget">
+			<layout class="QVBoxLayout" name="verticalLayout">
+				<item>
+					<widget class="QPushButton" name="button_image_extraction">
+						<property name="text">
+							<string>影像提取</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_image_binarization">
+						<property name="text">
+							<string>影像二值化</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_image_crop">
+						<property name="text">
+							<string>图像裁剪</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_image_stitching">
+						<property name="text">
+							<string>图像拼接</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_filter_target_image">
+						<property name="text">
+							<string>筛选目标图像</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_raster_to_vector">
+						<property name="text">
+							<string>栅格转矢量</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_batch_raster_to_vector">
+						<property name="text">
+							<string>批量化栅格转矢量</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QPushButton" name="button_image_compression">
+						<property name="text">
+							<string>影像压缩</string>
+						</property>
+					</widget>
+				</item>
+			</layout>
+		</widget>
+		<widget class="QWidget" name="dockWidgetContents">
+			<layout class="QVBoxLayout" name="verticalLayout_2">
+				<item>
+					<widget class="QToolBar" name="toolBar"/>
+					
+				</item>
+				<item>
+					<widget class="QTreeView" name="treeView"/>
+				</item>
+			</layout>
+		</widget>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>
