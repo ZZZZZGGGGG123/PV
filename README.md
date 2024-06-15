@@ -1,3 +1,5 @@
+## 这是一个遥感图像处理的程序，前面是基于U-Net网路模型做的训练，
+## 可以在0.5m分辨率下准确提取到光伏。后面包含一些遥感图像处理的程序，包括裁剪、拼接、转二值化、tif转矢量等。后续文档待更行。。。
 ## Unet：U-Net: Convolutional Networks for Biomedical Image Segmentation目标检测模型在Pytorch当中的实现
 ---
 
